@@ -1,0 +1,64 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.textContent {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 40px;
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.button_container {
+    margin-top: 50px;
+}
+
+.btn {
+    margin: 20px;
+    width: 120px;
+    padding: 12px;
+    border-radius: 8px;
+    color: #0270af;
+    border: 1px solid #0270af;
+    background-color: azure;
+}
+
+.btn2 {
+    margin: 20px;
+    width: 120px;
+    padding: 12px;
+    border-radius: 8px;
+    color: azure;
+    border: 1px solid azure;
+    background-color: #0270af;
+}
