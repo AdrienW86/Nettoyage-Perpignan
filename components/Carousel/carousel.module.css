@@ -3,11 +3,10 @@
   max-width: 900px;
   margin: 40px auto -2px auto;
   overflow: hidden;
-  height: 600px; /* Hauteur fixe pour images */
+  height: 600px;
   border-radius: 12px;
 }
 
-/* Slides superposées */
 .slide {
   opacity: 0;
   position: absolute;
@@ -16,16 +15,15 @@
   width: 98%;
   margin-left: 1%;
   height: 100%;
-  z-index: 1; /* inférieur aux dots */
+  z-index: 1;
   transition: opacity 1s ease-in-out;
 }
 
 .active {
   opacity: 1;
-  z-index: 2; /* toujours inférieur aux dots */
+  z-index: 2;
 }
 
-/* Image responsive */
 .image {
   width: 100%;
   height: 100%;
@@ -33,7 +31,6 @@
   border-radius: 12px;
 }
 
-/* Flèches navigation */
 .prev,
 .next {
   position: absolute;
@@ -55,13 +52,12 @@
 .prev:hover,
 .next:hover { background-color: rgba(0,0,0,0.7); }
 
-/* Dots navigation */
 .dots {
   text-align: center;
   position: absolute;
   bottom: 15px;
   width: 100%;
-  z-index: 20; /* au-dessus des slides */
+  z-index: 20; 
 }
 
 .dot {
@@ -69,9 +65,9 @@
   height: 12px;
   width: 12px;
   margin: 0 5px;
-  background-color: rgba(255, 255, 255, 0.8); /* plus visible */
-  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8); 
   cursor: pointer;
+  border-radius: 100%;
   transition: background-color 0.3s;
 }
 
@@ -79,7 +75,6 @@
   background-color: #0070f3;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .prev, .next { padding: 8px; font-size: 20px; }
    .carousel { height: 350px; } 

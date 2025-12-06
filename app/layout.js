@@ -13,11 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Nettoyage Perpignan",
-  description: "Votre professionnel du nettoyage à Perpignan",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
