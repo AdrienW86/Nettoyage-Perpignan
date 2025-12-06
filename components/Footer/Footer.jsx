@@ -4,6 +4,8 @@ import Link from 'next/link'
 import styles from './footer.module.css'
 
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
       <section className={styles.container}>
@@ -26,14 +28,14 @@ export default function Footer() {
         </ul>
       </section>
       <Link 
-        className={styles.credits} 
+        className={styles.credits2} 
         href="https://code-v.fr" 
         target="_blank" 
         rel="noopener noreferrer"
       >
         Réalisé par Codev
       </Link>
-      <p className={styles.credits}> Nettoyage Perpignan - Tous droits réservés.</p>     
+      <p className={styles.credits}> © {new Date().getFullYear()} Nettoyage Perpignan - Tous droits réservés.</p>     
     </footer>
   )
 }

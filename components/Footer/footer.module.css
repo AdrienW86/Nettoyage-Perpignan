@@ -42,9 +42,21 @@
 }
 
 .credits {
+    width: 100%;
+    font-style: oblique;
     text-align: center;
     margin: 5px;
 }
+
+.credits2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+}
+
 
 @media (min-width: 468px) {
  .ul {
