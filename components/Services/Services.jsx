@@ -4,28 +4,28 @@ import styles from './services.module.css'
 
 const servicesData = [
   {
-    title: "Nettoyage intérieur",
+    title: "Nettoyage pour particulier",
     image: "/nettoyage2.png"
   },
   {
     title: "Nettoyage de bureaux",
-    image: "/nettoyage2.png"
+    image: "/nettoyage5.png"
   },
   {
     title: "Désinfection",
-    image: "/nettoyage3.png"
+    image: "/desinfection.png"
   },
   {
     title: "Traitement des nuisibles",
-    image: "/nettoyage.png"
+    image: "/desinsectisation.png"
   },
   {
     title: "Syndrôme de diogène",
-    image: "/nettoyage.png"
+    image: "/diogene2.png"
   },
   {
     title: "Nettoyage Post-Mortem",
-    image: "/nettoyage.png"
+    image: "/post-mortem.png"
   },
 ]
 
