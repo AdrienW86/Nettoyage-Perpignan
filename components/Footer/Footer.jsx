@@ -33,7 +33,6 @@ export default function Footer() {
       >
         Réalisé par Codev
       </Link>
-
       <p className={styles.credits}> Nettoyage Perpignan - Tous droits réservés.</p>     
     </footer>
   )
