@@ -15,14 +15,16 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.logo}>
+
+        {/* LOGO CLIQUABLE */}
+        <Link href="/" className={styles.logo} onClick={closeMenu}>
           <Image 
             src="/logo.png"
             alt="Logo"
             width={80}
             height={80}
           />
-        </div>
+        </Link>
 
         <button className={styles.hamburger} onClick={() => setOpen(!open)}>
           {open ? <X size={28} /> : <Menu size={28} />}
@@ -64,3 +66,4 @@ export default function Header() {
     </header>
   );
 }
+

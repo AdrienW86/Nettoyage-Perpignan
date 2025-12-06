@@ -11,7 +11,7 @@ export const metadata = {
 export default function page() {
 
   const slides = [
-    { image: '/nettoyage.png', alt: 'Maison nettoyée' },
+    { image: '/bureaux3.png', alt: 'Maison nettoyée' },
     { image: '/nettoyage3.png', alt: 'Équipe professionnelle' },
     { image: '/nettoyage2.png', alt: 'Matériel moderne' },
   ];
