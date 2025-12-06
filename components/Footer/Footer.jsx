@@ -27,13 +27,18 @@ export default function Footer() {
           <Link href="/post-mortem" className={styles.li}>Nettoyage Post-Mortem</Link>
         </ul>
       </section>
+      <section className={styles.mentions}>
+        <Link className={styles.link} href="/mentions-legales"> Mentions Légales </Link>
+        <Link className={styles.link} href="/conditions-generales"> Conditions Générales </Link>
+        <Link className={styles.link} href="/confidentialite">Politique de Confidentialité </Link>
+      </section>
       <Link 
         className={styles.credits2} 
         href="https://code-v.fr" 
         target="_blank" 
         rel="noopener noreferrer"
       >
-        Réalisé par Codev
+        Réalisé par <span className={styles.span}>  Codev </span> 
       </Link>
       <p className={styles.credits}> © {new Date().getFullYear()} Nettoyage Perpignan  <br></br>- Tous droits réservés -</p>     
     </footer>

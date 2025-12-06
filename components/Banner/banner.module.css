@@ -34,35 +34,42 @@
 }
 
 .subtitle {
-    margin-top: 40px;
+  margin-top: 40px;
   color: white;
   font-size: 1.2rem;
   opacity: 0.9;
 }
 
 .button_container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn, .btn2 {
+  margin: 20px;
+  width: 130px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: .4s ease-in-out;
 }
 
 .btn {
-    margin: 20px;
-    width: 120px;
-    padding: 12px;
-    border-radius: 8px;
-    color: #0270af;
-    border: 1px solid #0270af;
-    background-color: azure;
+  color: #0270af;
+  border: 1px solid #0270af;
+  background-color: azure;
 }
 
 .btn2 {
-    margin: 20px;
-    width: 120px;
-    padding: 12px;
-    border-radius: 8px;
-    color: azure;
-    border: 1px solid azure;
-    background-color: #0270af;
+  color: azure;
+  border: 1px solid azure;
+  background-color: #0270af;
+}
+
+.btn:hover, .btn2:hover {
+  cursor: pointer;
+  filter: brightness(80%);
 }

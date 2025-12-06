@@ -9,14 +9,11 @@ import { Menu, X } from "lucide-react";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
-
   const closeMenu = () => setOpen(false);
 
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-
-        {/* LOGO CLIQUABLE */}
         <Link href="/" className={styles.logo} onClick={closeMenu}>
           <Image 
             src="/logo.png"
@@ -25,11 +22,9 @@ export default function Header() {
             height={80}
           />
         </Link>
-
         <button className={styles.hamburger} onClick={() => setOpen(!open)}>
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
-
         <nav className={styles.navDesktop}>
           <Link href="/">Accueil</Link>
           <Link href="/particuliers">Particuliers</Link>
@@ -42,7 +37,6 @@ export default function Header() {
           <Link href="/contact">Contact</Link>
         </nav>
       </div>
-
       {open && (
         <motion.nav
           initial={{ opacity: 0, height: 0 }}
@@ -66,4 +60,3 @@ export default function Header() {
     </header>
   );
 }
-
