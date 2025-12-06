@@ -6,7 +6,6 @@
   position: fixed;
   top: 0;
   left: 0;
-
   z-index: 50;
 }
 
@@ -21,6 +20,9 @@
 }
 
 .logo img {
+  position: absolute;
+  top: 0;
+  left: 20px;
   object-fit: contain;
 }
 
