@@ -32,7 +32,7 @@ const servicesData = [
 export default function Services() {
   return (
    <>
-    <h2 className={styles.h2}> Nos Services </h2>
+    <h2 id="services" className={styles.h2}> Nos Services </h2>
     <section className={styles.services}>
       {servicesData.map((service, index) => (
         <div key={index} className={styles.card}>

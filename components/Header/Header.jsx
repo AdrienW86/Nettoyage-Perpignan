@@ -26,9 +26,14 @@ export default function Header() {
         </button>
         <nav className={styles.navDesktop}>
           <Link href="/">Accueil</Link>
-          <Link href="#services">Services</Link>
+          <Link href="/particuliers">Particuliers</Link>
+          <Link href="/bureaux">Bureaux</Link>
+          <Link href="/desinfection">Désinfection</Link>
+          <Link href="/nuisibles">Nuisibles</Link>
+          <Link href="/diogene">Diogène</Link>
+          <Link href="/post-mortem">Post-Mortem</Link>
           <Link href="#about">À propos</Link>
-          <Link href="#contact">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
       </div>
       {open && (
@@ -39,10 +44,16 @@ export default function Header() {
             transition={{ duration: 0.1, ease: "easeInOut" }}
             className={styles.navMobile}
         >
-            <Link href="/" onClick={() => setOpen(false)}>Accueil</Link>
-            <Link href="#services" onClick={() => setOpen(false)}>Services</Link>
-            <Link href="#about" onClick={() => setOpen(false)}>À propos</Link>
-            <Link href="#contact" onClick={() => setOpen(false)}>Contact</Link>
+          <Link href="/">Accueil</Link>
+          <Link href="/#services">Services</Link>
+          <Link href="/particuliers">Nettoyage pour particuliers</Link>
+          <Link href="/bureaux">Nettoyage de bureaux</Link>
+          <Link href="/desinfection">Désinfection</Link>
+          <Link href="/nuisibles">Traitement des nuisibles</Link>
+          <Link href="/diogene">Syndrôme de Diogène</Link>
+          <Link href="/post-mortem">Nettoyage Post-Mortem</Link>
+          <Link href="#about">À propos</Link>
+          <Link href="/contact">Contact</Link>
         </motion.nav>
       )}
     </header>

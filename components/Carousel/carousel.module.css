@@ -1,0 +1,69 @@
+.carousel {
+  position: relative;
+  max-width: 900px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.slide {
+  opacity: 0;
+  position: absolute;
+  width: 98%;
+  margin-left: 1%;
+  transition: opacity 1s ease-in-out;
+}
+
+.active {
+  opacity: 1;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover,
+.next:hover { background-color: rgba(0,0,0,0.7); }
+
+.dots {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.dot {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.activeDot { background-color: #0070f3; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .prev, .next { padding: 8px; font-size: 20px; }
+}

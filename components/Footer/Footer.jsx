@@ -17,12 +17,12 @@ export default function Footer() {
           <p className={styles.p}> Services de Nettoyage professionnel</p>          
         </div>
         <ul className={styles.ul}>
-          <li className={styles.li}> Désinfection</li>            
-          <li className={styles.li}> Nettoyage intérieur </li>
-          <li className={styles.li}> Syndrôme de digène</li>
-          <li className={styles.li}> Nettoyage de bureaux</li>            
-          <li className={styles.li}> Traitement des nuisibles</li>
-          <li className={styles.li}> Nettoyage Post-Mortem</li>
+          <Link href="/particuliers" className={styles.li}>Nettoyage pour particuliers</Link>
+          <Link href="/bureaux" className={styles.li}>Nettoyage de bureaux</Link>
+          <Link href="/desinfection" className={styles.li}>Désinfection</Link>
+          <Link href="/nuisibles" className={styles.li}>Traitement des nuisibles</Link>
+          <Link href="/diogene" className={styles.li}>Syndrôme de Diogène</Link>
+          <Link href="/post-mortem" className={styles.li}>Nettoyage Post-Mortem</Link>
         </ul>
       </section>
       <Link 

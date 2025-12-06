@@ -23,3 +23,7 @@
     filter: invert();
   }
 }
+
+.main {
+  background-color: white;
+}
