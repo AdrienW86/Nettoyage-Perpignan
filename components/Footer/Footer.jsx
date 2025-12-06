@@ -35,7 +35,7 @@ export default function Footer() {
       >
         Réalisé par Codev
       </Link>
-      <p className={styles.credits}> © {new Date().getFullYear()} Nettoyage Perpignan - Tous droits réservés.</p>     
+      <p className={styles.credits}> © {new Date().getFullYear()} Nettoyage Perpignan  <br></br>- Tous droits réservés -</p>     
     </footer>
   )
 }
