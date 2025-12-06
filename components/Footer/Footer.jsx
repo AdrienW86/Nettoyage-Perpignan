@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 import styles from './footer.module.css'
 
 export default function Footer() {
@@ -25,9 +25,16 @@ export default function Footer() {
           <li className={styles.li}> Nettoyage Post-Mortem</li>
         </ul>
       </section>
-      <p className={styles.credits}> Réalisé par Codev </p>
-      <p className={styles.credits}> Nettoyage Perpignan - Tous droits réservés.</p>
-     
+      <Link 
+        className={styles.credits} 
+        href="https://code-v.fr" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Réalisé par Codev
+      </Link>
+
+      <p className={styles.credits}> Nettoyage Perpignan - Tous droits réservés.</p>     
     </footer>
   )
 }
