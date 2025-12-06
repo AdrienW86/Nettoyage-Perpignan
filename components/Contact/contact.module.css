@@ -1,0 +1,66 @@
+.container {
+    background-color: white;
+}
+
+.title {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--primary);
+    text-align: center;
+    margin: 80px 0;
+}
+
+.p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin: 50px auto;
+    color: rgb(31, 31, 31);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.input {
+    color: white;
+    padding: 10px;
+    font-family: var(--inter);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--primary);
+}
+
+.input::placeholder {
+    color: rgb(219, 219, 219);
+}
+
+.submit {
+    margin: 40px auto;
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+    background-color: var(--primary);
+}
+
+.submit:hover {
+    cursor: pointer;
+    ;
+}
+
+.msg {
+    color: green;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red
+}

@@ -53,7 +53,7 @@ export default function Header() {
           <Link href="/nuisibles" onClick={closeMenu}>Traitement des nuisibles</Link>
           <Link href="/diogene" onClick={closeMenu}>Syndrôme de Diogène</Link>
           <Link href="/post-mortem" onClick={closeMenu}>Nettoyage Post-Mortem</Link>
-          <Link href="#about" onClick={closeMenu}>À propos</Link>
+          <Link href="/a-propos" onClick={closeMenu}>À propos</Link>
           <Link href="/contact" onClick={closeMenu}>Contact</Link>
         </motion.nav>
       )}
