@@ -1,6 +1,23 @@
 .container {
-    background-color: white;
+  position: relative;
+  background-color: white;
+  background-image: url('/nettoyage2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: auto;
+  z-index: 1;
 }
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* 🔥 filtre noir à 40% */
+  z-index: -1; /* passe sous le contenu, mais au-dessus du background */
+}
+
 
 .title {
     width: 100%;
@@ -17,26 +34,27 @@
     text-align: center;
     margin: 50px auto;
     padding: 20px;
-    color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 500px;
     margin: 30px auto;
+    border-radius: 10px;
 }
 
 .input {
-    color: white;
+    color: var(--primary);
     padding: 10px;
     font-family: var(--inter);
-    border: 1px solid rgb(255, 255, 255);
-    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    background-color: white;
 }
 
 .input::placeholder {
-    color: rgb(219, 219, 219);
+    color: var(--primary);
 }
 
 .submit {
