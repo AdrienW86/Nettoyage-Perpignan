@@ -32,7 +32,7 @@ export const site = {
     siren: "834 799 751",
     siret: "834 799 751 00013",
     /** Nom commercial recensé au registre. « Nettoyage Perpignan » est la marque du site. */
-    registeredTradeName: "Express Nuisibles Services",
+    registeredTradeName: "Nettoyage Perpignan",
     registeredOn: "2018-01-23",
     nafCode: "43.91B",
     address: {
