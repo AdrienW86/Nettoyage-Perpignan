@@ -1,0 +1,262 @@
+.searchGrid,
+.mapGrid,
+.localGrid {
+  display: grid;
+  gap: clamp(2rem, 1.5rem + 3vw, 4.5rem);
+  align-items: start;
+}
+
+.searchText,
+.mapText {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.mapSection {
+  background:
+    radial-gradient(80% 70% at 70% 40%, rgba(21, 90, 102, 0.5), transparent 70%),
+    var(--navy);
+}
+
+.pageList {
+  display: grid;
+  margin-top: 1rem;
+  border-top: 1px solid var(--line-dark);
+}
+
+.pageLink {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.1rem 1rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--line-dark);
+  text-decoration: none;
+}
+
+.pageLink span {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+}
+
+.pageLink small {
+  grid-column: 1;
+  font-size: 0.82rem;
+  color: var(--text-on-dark-muted);
+}
+
+.pageLink svg {
+  grid-row: 1 / span 2;
+  grid-column: 2;
+  width: 1.2rem;
+  height: 1.2rem;
+  color: var(--champagne);
+  transition: transform 0.3s var(--ease);
+}
+
+.pageLink:hover svg {
+  transform: translateX(4px);
+}
+
+.pageLink:hover span {
+  color: var(--champagne);
+}
+
+.source {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.allDetails summary {
+  display: inline-flex;
+  padding: 0.8rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.letters {
+  columns: 1;
+  column-gap: 2.5rem;
+  margin-top: 2rem;
+  font-size: 0.92rem;
+}
+
+.letter {
+  break-inside: avoid;
+  margin-bottom: 1.4rem;
+}
+
+.letterTitle {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--champagne-ink);
+  margin-bottom: 0.3rem;
+}
+
+.letter li {
+  padding-block: 0.12rem;
+}
+
+.letter a {
+  color: var(--petrol);
+  font-weight: 700;
+}
+
+.cp {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+/* ---------- Page locale ---------- */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.fact {
+  display: grid;
+  gap: 0.2rem;
+  padding: 1.2rem 1.3rem;
+  background: var(--paper);
+}
+
+.factLabel {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--champagne-ink);
+}
+
+.factValue {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--ink);
+}
+
+.factsNote {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.localText {
+  display: grid;
+  gap: 1.1rem;
+  font-size: 1.06rem;
+  line-height: 1.8;
+}
+
+.focusList {
+  display: grid;
+  gap: 1rem;
+}
+
+.focus {
+  display: grid;
+  gap: 0.4rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  transition:
+    border-color 0.3s var(--ease),
+    transform 0.3s var(--ease);
+}
+
+.focus:hover {
+  border-color: var(--petrol);
+  transform: translateY(-3px);
+}
+
+.focus a {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.focus a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.focus {
+  position: relative;
+}
+
+.focus p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.nearby {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.nearby li {
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  background: var(--paper);
+}
+
+.nearby a {
+  color: var(--petrol);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nearbyDark li {
+  background: transparent;
+  border-color: var(--line-dark);
+  color: var(--text-on-dark);
+}
+
+.nearbyDark a {
+  color: var(--champagne);
+}
+
+.otherTitle {
+  margin: 3.5rem 0 1.6rem;
+}
+
+@media (min-width: 700px) {
+  .letters {
+    columns: 3;
+  }
+
+  .focusList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .searchGrid {
+    grid-template-columns: 0.9fr 1.1fr;
+  }
+
+  .mapGrid {
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+  }
+
+  .localGrid {
+    grid-template-columns: 1.3fr 0.7fr;
+  }
+
+  .letters {
+    columns: 4;
+  }
+}

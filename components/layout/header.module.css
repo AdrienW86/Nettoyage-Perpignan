@@ -1,0 +1,272 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(10, 23, 38, 0.86);
+  backdrop-filter: saturate(140%) blur(14px);
+  -webkit-backdrop-filter: saturate(140%) blur(14px);
+  color: var(--text-on-dark);
+  border-bottom: 1px solid transparent;
+  transition:
+    border-color 0.3s var(--ease),
+    background-color 0.3s var(--ease);
+}
+
+.scrolled {
+  background: rgba(10, 23, 38, 0.95);
+  border-bottom-color: var(--line-dark);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  height: var(--header-h);
+}
+
+.brand {
+  text-decoration: none;
+  flex: none;
+}
+
+/* ----- Navigation bureau ----- */
+.desktopNav {
+  display: none;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.navLink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.6rem 0.85rem;
+  border: 0;
+  background: none;
+  font-size: 0.93rem;
+  font-weight: 600;
+  color: var(--text-on-dark-muted);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s var(--ease);
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  left: 0.85rem;
+  right: 0.85rem;
+  bottom: 0.3rem;
+  height: 1px;
+  background: var(--champagne);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease);
+}
+
+.navLink:hover,
+.active {
+  color: var(--text-on-dark);
+}
+
+.navLink:hover::after,
+.active::after {
+  transform: scaleX(1);
+}
+
+.chevron {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.25s var(--ease);
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.hasPanel {
+  position: relative;
+}
+
+.panel {
+  position: absolute;
+  top: calc(100% + 14px);
+  left: -1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 2rem;
+  width: max-content;
+  max-width: min(680px, 90vw);
+  padding: 1.8rem;
+  background: var(--paper);
+  color: var(--text);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lift);
+}
+
+.panelGroup ul {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.panelTitle {
+  margin-bottom: 0.8rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--champagne-ink);
+}
+
+.mobile .panelTitle {
+  color: var(--champagne);
+}
+
+.panelLink {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.7rem 0.8rem;
+  margin-inline: -0.8rem;
+  border-radius: var(--radius-s);
+  text-decoration: none;
+  transition: background-color 0.2s var(--ease);
+}
+
+.panelLink:hover,
+.panelLink[aria-current="page"] {
+  background: var(--ivory);
+}
+
+.panelLabel {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  color: var(--ink);
+}
+
+.panelDesc {
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+/* ----- Actions ----- */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.phone {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.93rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--text-on-dark);
+}
+
+.phone svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  color: var(--champagne);
+}
+
+.actions .quote {
+  display: none;
+  min-height: 44px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.burger {
+  display: inline-grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--line-dark);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.burger svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+/* ----- Menu mobile ----- */
+.mobile {
+  position: fixed;
+  inset: var(--header-h) 0 0 0;
+  overflow-y: auto;
+  background: var(--ink);
+  overscroll-behavior: contain;
+}
+
+.mobileInner {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem var(--gutter) 3rem;
+}
+
+.mobileGroup {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.mobileGroup ul {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.mobileLink {
+  display: block;
+  padding: 0.45rem 0;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.mobileLinkSmall {
+  display: block;
+  padding: 0.55rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-on-dark-muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.mobileCtas {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .actions .quote {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 1180px) {
+  .desktopNav {
+    display: block;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .phone {
+    display: inline-flex;
+  }
+}

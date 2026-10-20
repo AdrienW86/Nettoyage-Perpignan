@@ -1,0 +1,47 @@
+.bar {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 40;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem calc(0.5rem + env(safe-area-inset-bottom));
+  background: rgba(10, 23, 38, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--line-dark);
+}
+
+.call,
+.quote {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.call {
+  border: 1px solid rgba(243, 239, 230, 0.4);
+  color: var(--text-on-dark);
+}
+
+.call svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  color: var(--champagne);
+}
+
+.quote {
+  background: var(--champagne);
+  color: var(--ink);
+}
+
+@media (min-width: 640px) {
+  .bar {
+    display: none;
+  }
+}

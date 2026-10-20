@@ -1,0 +1,73 @@
+.box {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.4rem;
+  align-items: start;
+  padding: clamp(1.5rem, 1.2rem + 1.5vw, 2.4rem);
+  border: 1px solid rgba(212, 180, 131, 0.5);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(212, 180, 131, 0.12), transparent 55%),
+    var(--paper);
+}
+
+.seal {
+  display: grid;
+  place-items: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--champagne);
+  box-shadow: 0 0 0 6px rgba(212, 180, 131, 0.18);
+}
+
+.seal svg {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.body {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--champagne-ink);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.text {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.text a {
+  color: var(--petrol);
+  font-weight: 700;
+}
+
+.compact {
+  padding: 1.2rem 1.4rem;
+}
+
+.compact .seal {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.compact .title {
+  font-size: 1rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+}

@@ -1,0 +1,3625 @@
+{
+  "source": "API Géo (geo.api.gouv.fr) — Code officiel géographique de l'INSEE",
+  "sourceUrl": "https://geo.api.gouv.fr/departements/66/communes?fields=nom,code,codesPostaux,population,centre,surface,epci&format=json",
+  "importedAt": "2026-10-20",
+  "count": 226,
+  "communes": [
+    {
+      "name": "Alénya",
+      "inseeCode": "66002",
+      "postalCodes": [
+        "66200"
+      ],
+      "slug": "alenya",
+      "population": 3782,
+      "lat": 42.6413,
+      "lon": 2.9824,
+      "areaHa": 572.45,
+      "epci": {
+        "code": "246600282",
+        "name": "CC Sud-Roussillon"
+      }
+    },
+    {
+      "name": "Amélie-les-Bains-Palalda",
+      "inseeCode": "66003",
+      "postalCodes": [
+        "66110"
+      ],
+      "slug": "amelie-les-bains-palalda",
+      "population": 3529,
+      "lat": 42.4508,
+      "lon": 2.687,
+      "areaHa": 2935.18,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Angoustrine-Villeneuve-des-Escaldes",
+      "inseeCode": "66005",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "angoustrine-villeneuve-des-escaldes",
+      "population": 542,
+      "lat": 42.546,
+      "lon": 1.9443,
+      "areaHa": 8707.67,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Ansignan",
+      "inseeCode": "66006",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "ansignan",
+      "population": 164,
+      "lat": 42.7646,
+      "lon": 2.5233,
+      "areaHa": 798.36,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Arboussols",
+      "inseeCode": "66007",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "arboussols",
+      "population": 130,
+      "lat": 42.6669,
+      "lon": 2.4953,
+      "areaHa": 1406.94,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Argelès-sur-Mer",
+      "inseeCode": "66008",
+      "postalCodes": [
+        "66700"
+      ],
+      "slug": "argeles-sur-mer",
+      "population": 10616,
+      "lat": 42.53,
+      "lon": 3.0234,
+      "areaHa": 5880.7,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Arles-sur-Tech",
+      "inseeCode": "66009",
+      "postalCodes": [
+        "66150"
+      ],
+      "slug": "arles-sur-tech",
+      "population": 2815,
+      "lat": 42.4531,
+      "lon": 2.6228,
+      "areaHa": 2885.99,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Ayguatébia-Talau",
+      "inseeCode": "66010",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "ayguatebia-talau",
+      "population": 49,
+      "lat": 42.5561,
+      "lon": 2.1962,
+      "areaHa": 2995.93,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Bages",
+      "inseeCode": "66011",
+      "postalCodes": [
+        "66670"
+      ],
+      "slug": "bages",
+      "population": 4560,
+      "lat": 42.6075,
+      "lon": 2.8893,
+      "areaHa": 1204.66,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Baho",
+      "inseeCode": "66012",
+      "postalCodes": [
+        "66540"
+      ],
+      "slug": "baho",
+      "population": 3231,
+      "lat": 42.7066,
+      "lon": 2.8229,
+      "areaHa": 774.5,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Baillestavy",
+      "inseeCode": "66013",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "baillestavy",
+      "population": 112,
+      "lat": 42.5682,
+      "lon": 2.5266,
+      "areaHa": 1781.2,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Baixas",
+      "inseeCode": "66014",
+      "postalCodes": [
+        "66390"
+      ],
+      "slug": "baixas",
+      "population": 2777,
+      "lat": 42.744,
+      "lon": 2.8079,
+      "areaHa": 1901.76,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Banyuls-dels-Aspres",
+      "inseeCode": "66015",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "banyuls-dels-aspres",
+      "population": 1483,
+      "lat": 42.5653,
+      "lon": 2.8649,
+      "areaHa": 1069,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Banyuls-sur-Mer",
+      "inseeCode": "66016",
+      "postalCodes": [
+        "66650"
+      ],
+      "slug": "banyuls-sur-mer",
+      "population": 4496,
+      "lat": 42.4602,
+      "lon": 3.1014,
+      "areaHa": 4283.58,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Bélesta",
+      "inseeCode": "66019",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "belesta",
+      "population": 270,
+      "lat": 42.7241,
+      "lon": 2.6228,
+      "areaHa": 2049.25,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Bolquère",
+      "inseeCode": "66020",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "bolquere",
+      "population": 816,
+      "lat": 42.5225,
+      "lon": 2.0614,
+      "areaHa": 1790.41,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Bompas",
+      "inseeCode": "66021",
+      "postalCodes": [
+        "66430"
+      ],
+      "slug": "bompas",
+      "population": 7832,
+      "lat": 42.7271,
+      "lon": 2.9426,
+      "areaHa": 574.74,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Boule-d'Amont",
+      "inseeCode": "66022",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "boule-d-amont",
+      "population": 63,
+      "lat": 42.5884,
+      "lon": 2.5905,
+      "areaHa": 2340.14,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Bouleternère",
+      "inseeCode": "66023",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "bouleternere",
+      "population": 951,
+      "lat": 42.6435,
+      "lon": 2.5878,
+      "areaHa": 1077.55,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Bourg-Madame",
+      "inseeCode": "66025",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "bourg-madame",
+      "population": 1182,
+      "lat": 42.438,
+      "lon": 1.9608,
+      "areaHa": 771.32,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Brouilla",
+      "inseeCode": "66026",
+      "postalCodes": [
+        "66620"
+      ],
+      "slug": "brouilla",
+      "population": 1572,
+      "lat": 42.5759,
+      "lon": 2.8927,
+      "areaHa": 789.57,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Cabestany",
+      "inseeCode": "66028",
+      "postalCodes": [
+        "66330"
+      ],
+      "slug": "cabestany",
+      "population": 10465,
+      "lat": 42.6804,
+      "lon": 2.9507,
+      "areaHa": 1059.05,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Caixas",
+      "inseeCode": "66029",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "caixas",
+      "population": 134,
+      "lat": 42.6031,
+      "lon": 2.6633,
+      "areaHa": 2779.78,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Calce",
+      "inseeCode": "66030",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "calce",
+      "population": 226,
+      "lat": 42.7477,
+      "lon": 2.7545,
+      "areaHa": 2399.62,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Calmeilles",
+      "inseeCode": "66032",
+      "postalCodes": [
+        "66400"
+      ],
+      "slug": "calmeilles",
+      "population": 60,
+      "lat": 42.5507,
+      "lon": 2.6735,
+      "areaHa": 1334.67,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Camélas",
+      "inseeCode": "66033",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "camelas",
+      "population": 461,
+      "lat": 42.6404,
+      "lon": 2.6911,
+      "areaHa": 1299.08,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Campôme",
+      "inseeCode": "66034",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "campome",
+      "population": 124,
+      "lat": 42.6506,
+      "lon": 2.3826,
+      "areaHa": 535,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Campoussy",
+      "inseeCode": "66035",
+      "postalCodes": [
+        "66730"
+      ],
+      "slug": "campoussy",
+      "population": 42,
+      "lat": 42.6978,
+      "lon": 2.452,
+      "areaHa": 1732.1,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Canaveilles",
+      "inseeCode": "66036",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "canaveilles",
+      "population": 53,
+      "lat": 42.5348,
+      "lon": 2.2179,
+      "areaHa": 1122.95,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Canet-en-Roussillon",
+      "inseeCode": "66037",
+      "postalCodes": [
+        "66140"
+      ],
+      "slug": "canet-en-roussillon",
+      "population": 13227,
+      "lat": 42.6809,
+      "lon": 3.002,
+      "areaHa": 3006.96,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Canohès",
+      "inseeCode": "66038",
+      "postalCodes": [
+        "66680"
+      ],
+      "slug": "canohes",
+      "population": 6616,
+      "lat": 42.6514,
+      "lon": 2.8294,
+      "areaHa": 872.33,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Caramany",
+      "inseeCode": "66039",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "caramany",
+      "population": 129,
+      "lat": 42.7388,
+      "lon": 2.5572,
+      "areaHa": 1424.98,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Casefabre",
+      "inseeCode": "66040",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "casefabre",
+      "population": 44,
+      "lat": 42.6156,
+      "lon": 2.6127,
+      "areaHa": 703.17,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Cases-de-Pène",
+      "inseeCode": "66041",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "cases-de-pene",
+      "population": 973,
+      "lat": 42.7931,
+      "lon": 2.7771,
+      "areaHa": 1354.41,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Cassagnes",
+      "inseeCode": "66042",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "cassagnes",
+      "population": 294,
+      "lat": 42.7415,
+      "lon": 2.626,
+      "areaHa": 1522.89,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Casteil",
+      "inseeCode": "66043",
+      "postalCodes": [
+        "66820"
+      ],
+      "slug": "casteil",
+      "population": 139,
+      "lat": 42.5035,
+      "lon": 2.4229,
+      "areaHa": 2966.31,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Castelnou",
+      "inseeCode": "66044",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "castelnou",
+      "population": 280,
+      "lat": 42.6247,
+      "lon": 2.7046,
+      "areaHa": 1926.74,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Catllar",
+      "inseeCode": "66045",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "catllar",
+      "population": 723,
+      "lat": 42.6407,
+      "lon": 2.4186,
+      "areaHa": 799.87,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Caudiès-de-Conflent",
+      "inseeCode": "66047",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "caudies-de-conflent",
+      "population": 23,
+      "lat": 42.5623,
+      "lon": 2.1451,
+      "areaHa": 651.01,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Caudiès-de-Fenouillèdes",
+      "inseeCode": "66046",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "caudies-de-fenouilledes",
+      "population": 586,
+      "lat": 42.8213,
+      "lon": 2.3781,
+      "areaHa": 3753.12,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Cerbère",
+      "inseeCode": "66048",
+      "postalCodes": [
+        "66290"
+      ],
+      "slug": "cerbere",
+      "population": 1209,
+      "lat": 42.4471,
+      "lon": 3.1493,
+      "areaHa": 821.7,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Céret",
+      "inseeCode": "66049",
+      "postalCodes": [
+        "66400"
+      ],
+      "slug": "ceret",
+      "population": 7521,
+      "lat": 42.473,
+      "lon": 2.7565,
+      "areaHa": 3786.42,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Claira",
+      "inseeCode": "66050",
+      "postalCodes": [
+        "66530"
+      ],
+      "slug": "claira",
+      "population": 4922,
+      "lat": 42.7626,
+      "lon": 2.9458,
+      "areaHa": 1933.65,
+      "epci": {
+        "code": "200070365",
+        "name": "CC Corbières Salanque Méditerranée"
+      }
+    },
+    {
+      "name": "Clara-Villerach",
+      "inseeCode": "66051",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "clara-villerach",
+      "population": 265,
+      "lat": 42.5831,
+      "lon": 2.4489,
+      "areaHa": 863.2,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Codalet",
+      "inseeCode": "66052",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "codalet",
+      "population": 350,
+      "lat": 42.6015,
+      "lon": 2.4169,
+      "areaHa": 282.5,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Collioure",
+      "inseeCode": "66053",
+      "postalCodes": [
+        "66190"
+      ],
+      "slug": "collioure",
+      "population": 2756,
+      "lat": 42.5087,
+      "lon": 3.0744,
+      "areaHa": 1203.41,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Conat",
+      "inseeCode": "66054",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "conat",
+      "population": 65,
+      "lat": 42.6203,
+      "lon": 2.3426,
+      "areaHa": 1920.49,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Corbère",
+      "inseeCode": "66055",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "corbere",
+      "population": 781,
+      "lat": 42.6515,
+      "lon": 2.6614,
+      "areaHa": 725.76,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Corbère-les-Cabanes",
+      "inseeCode": "66056",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "corbere-les-cabanes",
+      "population": 1213,
+      "lat": 42.66,
+      "lon": 2.6837,
+      "areaHa": 422.34,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Corneilla-de-Conflent",
+      "inseeCode": "66057",
+      "postalCodes": [
+        "66820"
+      ],
+      "slug": "corneilla-de-conflent",
+      "population": 527,
+      "lat": 42.5786,
+      "lon": 2.382,
+      "areaHa": 1106.55,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Corneilla-del-Vercol",
+      "inseeCode": "66059",
+      "postalCodes": [
+        "66200"
+      ],
+      "slug": "corneilla-del-vercol",
+      "population": 2696,
+      "lat": 42.6228,
+      "lon": 2.9512,
+      "areaHa": 539.09,
+      "epci": {
+        "code": "246600282",
+        "name": "CC Sud-Roussillon"
+      }
+    },
+    {
+      "name": "Corneilla-la-Rivière",
+      "inseeCode": "66058",
+      "postalCodes": [
+        "66550"
+      ],
+      "slug": "corneilla-la-riviere",
+      "population": 2004,
+      "lat": 42.7098,
+      "lon": 2.7247,
+      "areaHa": 1265.13,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Corsavy",
+      "inseeCode": "66060",
+      "postalCodes": [
+        "66150"
+      ],
+      "slug": "corsavy",
+      "population": 246,
+      "lat": 42.483,
+      "lon": 2.541,
+      "areaHa": 4729.66,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Coustouges",
+      "inseeCode": "66061",
+      "postalCodes": [
+        "66260"
+      ],
+      "slug": "coustouges",
+      "population": 95,
+      "lat": 42.3602,
+      "lon": 2.632,
+      "areaHa": 1675.74,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Dorres",
+      "inseeCode": "66062",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "dorres",
+      "population": 182,
+      "lat": 42.5125,
+      "lon": 1.9224,
+      "areaHa": 2505.17,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Égat",
+      "inseeCode": "66064",
+      "postalCodes": [
+        "66120"
+      ],
+      "slug": "egat",
+      "population": 435,
+      "lat": 42.5008,
+      "lon": 2.0195,
+      "areaHa": 439.67,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Elne",
+      "inseeCode": "66065",
+      "postalCodes": [
+        "66200"
+      ],
+      "slug": "elne",
+      "population": 9511,
+      "lat": 42.6083,
+      "lon": 2.978,
+      "areaHa": 2185.8,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Enveitg",
+      "inseeCode": "66066",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "enveitg",
+      "population": 602,
+      "lat": 42.491,
+      "lon": 1.8922,
+      "areaHa": 3031.68,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Err",
+      "inseeCode": "66067",
+      "postalCodes": [
+        "66800"
+      ],
+      "slug": "err",
+      "population": 716,
+      "lat": 42.4131,
+      "lon": 2.0678,
+      "areaHa": 2628.29,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Escaro",
+      "inseeCode": "66068",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "escaro",
+      "population": 128,
+      "lat": 42.5337,
+      "lon": 2.319,
+      "areaHa": 1509.15,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Espira-de-Conflent",
+      "inseeCode": "66070",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "espira-de-conflent",
+      "population": 227,
+      "lat": 42.6168,
+      "lon": 2.4923,
+      "areaHa": 614.42,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Espira-de-l'Agly",
+      "inseeCode": "66069",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "espira-de-l-agly",
+      "population": 3524,
+      "lat": 42.7987,
+      "lon": 2.8231,
+      "areaHa": 2716.42,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Estagel",
+      "inseeCode": "66071",
+      "postalCodes": [
+        "66310"
+      ],
+      "slug": "estagel",
+      "population": 2160,
+      "lat": 42.7642,
+      "lon": 2.7077,
+      "areaHa": 2086.05,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Estavar",
+      "inseeCode": "66072",
+      "postalCodes": [
+        "66800"
+      ],
+      "slug": "estavar",
+      "population": 443,
+      "lat": 42.4764,
+      "lon": 2.0121,
+      "areaHa": 928.22,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Estoher",
+      "inseeCode": "66073",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "estoher",
+      "population": 163,
+      "lat": 42.5695,
+      "lon": 2.4829,
+      "areaHa": 2607.26,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Eus",
+      "inseeCode": "66074",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "eus",
+      "population": 386,
+      "lat": 42.6552,
+      "lon": 2.4478,
+      "areaHa": 2015.93,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Eyne",
+      "inseeCode": "66075",
+      "postalCodes": [
+        "66800"
+      ],
+      "slug": "eyne",
+      "population": 163,
+      "lat": 42.4544,
+      "lon": 2.111,
+      "areaHa": 2051.11,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Feilluns",
+      "inseeCode": "66076",
+      "postalCodes": [
+        "66730"
+      ],
+      "slug": "feilluns",
+      "population": 59,
+      "lat": 42.7613,
+      "lon": 2.4877,
+      "areaHa": 670.76,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Fenouillet",
+      "inseeCode": "66077",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "fenouillet",
+      "population": 100,
+      "lat": 42.7786,
+      "lon": 2.382,
+      "areaHa": 1879.95,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Fillols",
+      "inseeCode": "66078",
+      "postalCodes": [
+        "66820"
+      ],
+      "slug": "fillols",
+      "population": 207,
+      "lat": 42.5587,
+      "lon": 2.4257,
+      "areaHa": 887.49,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Finestret",
+      "inseeCode": "66079",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "finestret",
+      "population": 204,
+      "lat": 42.6068,
+      "lon": 2.5194,
+      "areaHa": 853.67,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Font-Romeu-Odeillo-Via",
+      "inseeCode": "66124",
+      "postalCodes": [
+        "66120"
+      ],
+      "slug": "font-romeu-odeillo-via",
+      "population": 1762,
+      "lat": 42.5145,
+      "lon": 2.0212,
+      "areaHa": 2975.34,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Fontpédrouse",
+      "inseeCode": "66080",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "fontpedrouse",
+      "population": 125,
+      "lat": 42.4718,
+      "lon": 2.202,
+      "areaHa": 6410.93,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Fontrabiouse",
+      "inseeCode": "66081",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "fontrabiouse",
+      "population": 144,
+      "lat": 42.6413,
+      "lon": 2.0514,
+      "areaHa": 1572.45,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Formiguères",
+      "inseeCode": "66082",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "formigueres",
+      "population": 494,
+      "lat": 42.6227,
+      "lon": 2.0629,
+      "areaHa": 4694.91,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Fosse",
+      "inseeCode": "66083",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "fosse",
+      "population": 52,
+      "lat": 42.7842,
+      "lon": 2.4335,
+      "areaHa": 439.44,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Fourques",
+      "inseeCode": "66084",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "fourques",
+      "population": 1347,
+      "lat": 42.5845,
+      "lon": 2.7759,
+      "areaHa": 956.95,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Fuilla",
+      "inseeCode": "66085",
+      "postalCodes": [
+        "66820"
+      ],
+      "slug": "fuilla",
+      "population": 435,
+      "lat": 42.5673,
+      "lon": 2.3549,
+      "areaHa": 963.22,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Glorianes",
+      "inseeCode": "66086",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "glorianes",
+      "population": 15,
+      "lat": 42.5904,
+      "lon": 2.5528,
+      "areaHa": 1873.66,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Ille-sur-Têt",
+      "inseeCode": "66088",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "ille-sur-tet",
+      "population": 5556,
+      "lat": 42.6746,
+      "lon": 2.6167,
+      "areaHa": 3168.83,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Joch",
+      "inseeCode": "66089",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "joch",
+      "population": 416,
+      "lat": 42.6151,
+      "lon": 2.5244,
+      "areaHa": 345.62,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Jujols",
+      "inseeCode": "66090",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "jujols",
+      "population": 47,
+      "lat": 42.5852,
+      "lon": 2.2823,
+      "areaHa": 993.9,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "L'Albère",
+      "inseeCode": "66001",
+      "postalCodes": [
+        "66480"
+      ],
+      "slug": "l-albere",
+      "population": 64,
+      "lat": 42.4762,
+      "lon": 2.897,
+      "areaHa": 1629.16,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "La Bastide",
+      "inseeCode": "66018",
+      "postalCodes": [
+        "66110"
+      ],
+      "slug": "la-bastide",
+      "population": 60,
+      "lat": 42.5371,
+      "lon": 2.5752,
+      "areaHa": 1546.01,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "La Cabanasse",
+      "inseeCode": "66027",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "la-cabanasse",
+      "population": 713,
+      "lat": 42.501,
+      "lon": 2.1056,
+      "areaHa": 318.97,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "La Llagonne",
+      "inseeCode": "66098",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "la-llagonne",
+      "population": 230,
+      "lat": 42.5401,
+      "lon": 2.083,
+      "areaHa": 2337.19,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Lamanère",
+      "inseeCode": "66091",
+      "postalCodes": [
+        "66230"
+      ],
+      "slug": "lamanere",
+      "population": 62,
+      "lat": 42.3628,
+      "lon": 2.5191,
+      "areaHa": 2371.79,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Lansac",
+      "inseeCode": "66092",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "lansac",
+      "population": 89,
+      "lat": 42.7685,
+      "lon": 2.5651,
+      "areaHa": 526.46,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Laroque-des-Albères",
+      "inseeCode": "66093",
+      "postalCodes": [
+        "66740"
+      ],
+      "slug": "laroque-des-alberes",
+      "population": 2256,
+      "lat": 42.5179,
+      "lon": 2.9314,
+      "areaHa": 2075.72,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Latour-Bas-Elne",
+      "inseeCode": "66094",
+      "postalCodes": [
+        "66200"
+      ],
+      "slug": "latour-bas-elne",
+      "population": 3228,
+      "lat": 42.6041,
+      "lon": 3.0067,
+      "areaHa": 332.89,
+      "epci": {
+        "code": "246600282",
+        "name": "CC Sud-Roussillon"
+      }
+    },
+    {
+      "name": "Latour-de-Carol",
+      "inseeCode": "66095",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "latour-de-carol",
+      "population": 480,
+      "lat": 42.4746,
+      "lon": 1.8736,
+      "areaHa": 1297.45,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Latour-de-France",
+      "inseeCode": "66096",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "latour-de-france",
+      "population": 1043,
+      "lat": 42.7701,
+      "lon": 2.6498,
+      "areaHa": 1409.41,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Le Barcarès",
+      "inseeCode": "66017",
+      "postalCodes": [
+        "66420"
+      ],
+      "slug": "le-barcares",
+      "population": 6109,
+      "lat": 42.8118,
+      "lon": 3.028,
+      "areaHa": 1513.78,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Le Boulou",
+      "inseeCode": "66024",
+      "postalCodes": [
+        "66160"
+      ],
+      "slug": "le-boulou",
+      "population": 5487,
+      "lat": 42.5267,
+      "lon": 2.8328,
+      "areaHa": 1456.66,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Le Perthus",
+      "inseeCode": "66137",
+      "postalCodes": [
+        "66480"
+      ],
+      "slug": "le-perthus",
+      "population": 555,
+      "lat": 42.4664,
+      "lon": 2.8639,
+      "areaHa": 423.87,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Le Soler",
+      "inseeCode": "66195",
+      "postalCodes": [
+        "66270"
+      ],
+      "slug": "le-soler",
+      "population": 7942,
+      "lat": 42.6756,
+      "lon": 2.7999,
+      "areaHa": 1040.25,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Le Tech",
+      "inseeCode": "66206",
+      "postalCodes": [
+        "66230"
+      ],
+      "slug": "le-tech",
+      "population": 95,
+      "lat": 42.4439,
+      "lon": 2.5154,
+      "areaHa": 2638.26,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Le Vivier",
+      "inseeCode": "66234",
+      "postalCodes": [
+        "66730"
+      ],
+      "slug": "le-vivier",
+      "population": 71,
+      "lat": 42.7637,
+      "lon": 2.4423,
+      "areaHa": 1295.31,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Les Angles",
+      "inseeCode": "66004",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "les-angles",
+      "population": 597,
+      "lat": 42.5797,
+      "lon": 2.049,
+      "areaHa": 4338.86,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Les Cluses",
+      "inseeCode": "66063",
+      "postalCodes": [
+        "66480"
+      ],
+      "slug": "les-cluses",
+      "population": 282,
+      "lat": 42.4847,
+      "lon": 2.8437,
+      "areaHa": 883.96,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Lesquerde",
+      "inseeCode": "66097",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "lesquerde",
+      "population": 141,
+      "lat": 42.7927,
+      "lon": 2.5381,
+      "areaHa": 1566.04,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Llauro",
+      "inseeCode": "66099",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "llauro",
+      "population": 311,
+      "lat": 42.5458,
+      "lon": 2.7494,
+      "areaHa": 838.17,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Llo",
+      "inseeCode": "66100",
+      "postalCodes": [
+        "66800"
+      ],
+      "slug": "llo",
+      "population": 153,
+      "lat": 42.4358,
+      "lon": 2.0895,
+      "areaHa": 2858.02,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Llupia",
+      "inseeCode": "66101",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "llupia",
+      "population": 2199,
+      "lat": 42.6275,
+      "lon": 2.7827,
+      "areaHa": 714.59,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Los Masos",
+      "inseeCode": "66104",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "los-masos",
+      "population": 966,
+      "lat": 42.6145,
+      "lon": 2.4593,
+      "areaHa": 572.55,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Mantet",
+      "inseeCode": "66102",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "mantet",
+      "population": 35,
+      "lat": 42.4555,
+      "lon": 2.2922,
+      "areaHa": 3212.12,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Marquixanes",
+      "inseeCode": "66103",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "marquixanes",
+      "population": 599,
+      "lat": 42.6344,
+      "lon": 2.4848,
+      "areaHa": 489.9,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Matemale",
+      "inseeCode": "66105",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "matemale",
+      "population": 274,
+      "lat": 42.5788,
+      "lon": 2.1154,
+      "areaHa": 1930.33,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Maureillas-las-Illas",
+      "inseeCode": "66106",
+      "postalCodes": [
+        "66480"
+      ],
+      "slug": "maureillas-las-illas",
+      "population": 3006,
+      "lat": 42.4635,
+      "lon": 2.7999,
+      "areaHa": 4252.76,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Maury",
+      "inseeCode": "66107",
+      "postalCodes": [
+        "66460"
+      ],
+      "slug": "maury",
+      "population": 773,
+      "lat": 42.816,
+      "lon": 2.6194,
+      "areaHa": 3462.36,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Millas",
+      "inseeCode": "66108",
+      "postalCodes": [
+        "66170"
+      ],
+      "slug": "millas",
+      "population": 4417,
+      "lat": 42.6966,
+      "lon": 2.6865,
+      "areaHa": 1936.01,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Molitg-les-Bains",
+      "inseeCode": "66109",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "molitg-les-bains",
+      "population": 251,
+      "lat": 42.6624,
+      "lon": 2.3955,
+      "areaHa": 1309.32,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Mont-Louis",
+      "inseeCode": "66117",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "mont-louis",
+      "population": 153,
+      "lat": 42.5098,
+      "lon": 2.1197,
+      "areaHa": 38.55,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Montalba-le-Château",
+      "inseeCode": "66111",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "montalba-le-chateau",
+      "population": 163,
+      "lat": 42.699,
+      "lon": 2.5658,
+      "areaHa": 1597.65,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Montauriol",
+      "inseeCode": "66112",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "montauriol",
+      "population": 254,
+      "lat": 42.5777,
+      "lon": 2.725,
+      "areaHa": 1129.99,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Montbolo",
+      "inseeCode": "66113",
+      "postalCodes": [
+        "66110"
+      ],
+      "slug": "montbolo",
+      "population": 189,
+      "lat": 42.4924,
+      "lon": 2.6265,
+      "areaHa": 2199.19,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Montescot",
+      "inseeCode": "66114",
+      "postalCodes": [
+        "66200"
+      ],
+      "slug": "montescot",
+      "population": 1586,
+      "lat": 42.6158,
+      "lon": 2.9188,
+      "areaHa": 613.4,
+      "epci": {
+        "code": "246600282",
+        "name": "CC Sud-Roussillon"
+      }
+    },
+    {
+      "name": "Montesquieu-des-Albères",
+      "inseeCode": "66115",
+      "postalCodes": [
+        "66740"
+      ],
+      "slug": "montesquieu-des-alberes",
+      "population": 1353,
+      "lat": 42.5206,
+      "lon": 2.8685,
+      "areaHa": 1720.28,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Montferrer",
+      "inseeCode": "66116",
+      "postalCodes": [
+        "66150"
+      ],
+      "slug": "montferrer",
+      "population": 218,
+      "lat": 42.4415,
+      "lon": 2.567,
+      "areaHa": 2195.27,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Montner",
+      "inseeCode": "66118",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "montner",
+      "population": 324,
+      "lat": 42.7439,
+      "lon": 2.6946,
+      "areaHa": 1100.71,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Mosset",
+      "inseeCode": "66119",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "mosset",
+      "population": 321,
+      "lat": 42.6719,
+      "lon": 2.2848,
+      "areaHa": 7111.61,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Nahuja",
+      "inseeCode": "66120",
+      "postalCodes": [
+        "66340"
+      ],
+      "slug": "nahuja",
+      "population": 74,
+      "lat": 42.4243,
+      "lon": 1.9995,
+      "areaHa": 567.8,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Néfiach",
+      "inseeCode": "66121",
+      "postalCodes": [
+        "66170"
+      ],
+      "slug": "nefiach",
+      "population": 1383,
+      "lat": 42.696,
+      "lon": 2.6566,
+      "areaHa": 882.05,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Nohèdes",
+      "inseeCode": "66122",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "nohedes",
+      "population": 61,
+      "lat": 42.6256,
+      "lon": 2.2547,
+      "areaHa": 2896.39,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Nyer",
+      "inseeCode": "66123",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "nyer",
+      "population": 148,
+      "lat": 42.4957,
+      "lon": 2.2764,
+      "areaHa": 3708.68,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Olette",
+      "inseeCode": "66125",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "olette",
+      "population": 360,
+      "lat": 42.5938,
+      "lon": 2.2449,
+      "areaHa": 2912.04,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Oms",
+      "inseeCode": "66126",
+      "postalCodes": [
+        "66400"
+      ],
+      "slug": "oms",
+      "population": 364,
+      "lat": 42.5319,
+      "lon": 2.7102,
+      "areaHa": 1873.38,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Opoul-Périllos",
+      "inseeCode": "66127",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "opoul-perillos",
+      "population": 1239,
+      "lat": 42.8817,
+      "lon": 2.8601,
+      "areaHa": 4861.01,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Oreilla",
+      "inseeCode": "66128",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "oreilla",
+      "population": 28,
+      "lat": 42.5788,
+      "lon": 2.2272,
+      "areaHa": 1641.22,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Ortaffa",
+      "inseeCode": "66129",
+      "postalCodes": [
+        "66560"
+      ],
+      "slug": "ortaffa",
+      "population": 1980,
+      "lat": 42.5855,
+      "lon": 2.9191,
+      "areaHa": 853.41,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Osséja",
+      "inseeCode": "66130",
+      "postalCodes": [
+        "66340"
+      ],
+      "slug": "osseja",
+      "population": 1390,
+      "lat": 42.3923,
+      "lon": 2.0006,
+      "areaHa": 1704.9,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Palau-de-Cerdagne",
+      "inseeCode": "66132",
+      "postalCodes": [
+        "66340"
+      ],
+      "slug": "palau-de-cerdagne",
+      "population": 405,
+      "lat": 42.3864,
+      "lon": 1.9818,
+      "areaHa": 1136.9,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Palau-del-Vidre",
+      "inseeCode": "66133",
+      "postalCodes": [
+        "66690"
+      ],
+      "slug": "palau-del-vidre",
+      "population": 3329,
+      "lat": 42.5662,
+      "lon": 2.9595,
+      "areaHa": 1036.95,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Passa",
+      "inseeCode": "66134",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "passa",
+      "population": 1118,
+      "lat": 42.5674,
+      "lon": 2.804,
+      "areaHa": 1343.41,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Perpignan",
+      "inseeCode": "66136",
+      "postalCodes": [
+        "66000",
+        "66100"
+      ],
+      "slug": "perpignan",
+      "population": 121616,
+      "lat": 42.699,
+      "lon": 2.9045,
+      "areaHa": 6798.62,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Peyrestortes",
+      "inseeCode": "66138",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "peyrestortes",
+      "population": 1927,
+      "lat": 42.7484,
+      "lon": 2.8471,
+      "areaHa": 806.48,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Pézilla-de-Conflent",
+      "inseeCode": "66139",
+      "postalCodes": [
+        "66730"
+      ],
+      "slug": "pezilla-de-conflent",
+      "population": 46,
+      "lat": 42.7356,
+      "lon": 2.4884,
+      "areaHa": 675.91,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Pézilla-la-Rivière",
+      "inseeCode": "66140",
+      "postalCodes": [
+        "66370"
+      ],
+      "slug": "pezilla-la-riviere",
+      "population": 4129,
+      "lat": 42.7089,
+      "lon": 2.76,
+      "areaHa": 1633.97,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Pia",
+      "inseeCode": "66141",
+      "postalCodes": [
+        "66380"
+      ],
+      "slug": "pia",
+      "population": 11615,
+      "lat": 42.7506,
+      "lon": 2.9172,
+      "areaHa": 1340.68,
+      "epci": {
+        "code": "200070365",
+        "name": "CC Corbières Salanque Méditerranée"
+      }
+    },
+    {
+      "name": "Planès",
+      "inseeCode": "66142",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "planes",
+      "population": 57,
+      "lat": 42.4701,
+      "lon": 2.1444,
+      "areaHa": 1429.33,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Planèzes",
+      "inseeCode": "66143",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "planezes",
+      "population": 99,
+      "lat": 42.7736,
+      "lon": 2.6215,
+      "areaHa": 622.72,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Pollestres",
+      "inseeCode": "66144",
+      "postalCodes": [
+        "66450"
+      ],
+      "slug": "pollestres",
+      "population": 5548,
+      "lat": 42.6373,
+      "lon": 2.8736,
+      "areaHa": 833.78,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Ponteilla",
+      "inseeCode": "66145",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "ponteilla",
+      "population": 3101,
+      "lat": 42.6347,
+      "lon": 2.8288,
+      "areaHa": 1390.36,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Port-Vendres",
+      "inseeCode": "66148",
+      "postalCodes": [
+        "66660"
+      ],
+      "slug": "port-vendres",
+      "population": 4018,
+      "lat": 42.5034,
+      "lon": 3.1048,
+      "areaHa": 1448.56,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Porta",
+      "inseeCode": "66146",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "porta",
+      "population": 94,
+      "lat": 42.5212,
+      "lon": 1.7935,
+      "areaHa": 6527.52,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Porté-Puymorens",
+      "inseeCode": "66147",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "porte-puymorens",
+      "population": 100,
+      "lat": 42.5546,
+      "lon": 1.8381,
+      "areaHa": 4981.15,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Prades",
+      "inseeCode": "66149",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "prades",
+      "population": 6148,
+      "lat": 42.6107,
+      "lon": 2.4276,
+      "areaHa": 1098.92,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Prats-de-Mollo-la-Preste",
+      "inseeCode": "66150",
+      "postalCodes": [
+        "66230"
+      ],
+      "slug": "prats-de-mollo-la-preste",
+      "population": 1099,
+      "lat": 42.4174,
+      "lon": 2.4229,
+      "areaHa": 11875.12,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Prats-de-Sournia",
+      "inseeCode": "66151",
+      "postalCodes": [
+        "66730"
+      ],
+      "slug": "prats-de-sournia",
+      "population": 76,
+      "lat": 42.7399,
+      "lon": 2.4535,
+      "areaHa": 845.29,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Prugnanes",
+      "inseeCode": "66152",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "prugnanes",
+      "population": 90,
+      "lat": 42.8254,
+      "lon": 2.435,
+      "areaHa": 1363.56,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Prunet-et-Belpuig",
+      "inseeCode": "66153",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "prunet-et-belpuig",
+      "population": 44,
+      "lat": 42.5655,
+      "lon": 2.6373,
+      "areaHa": 2170.92,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Puyvalador",
+      "inseeCode": "66154",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "puyvalador",
+      "population": 68,
+      "lat": 42.6488,
+      "lon": 2.1097,
+      "areaHa": 1912.86,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Py",
+      "inseeCode": "66155",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "py",
+      "population": 83,
+      "lat": 42.4683,
+      "lon": 2.3635,
+      "areaHa": 5069.09,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Rabouillet",
+      "inseeCode": "66156",
+      "postalCodes": [
+        "66730"
+      ],
+      "slug": "rabouillet",
+      "population": 85,
+      "lat": 42.7265,
+      "lon": 2.3646,
+      "areaHa": 1958.49,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Railleu",
+      "inseeCode": "66157",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "railleu",
+      "population": 23,
+      "lat": 42.5923,
+      "lon": 2.1619,
+      "areaHa": 1020.92,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Rasiguères",
+      "inseeCode": "66158",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "rasigueres",
+      "population": 165,
+      "lat": 42.7732,
+      "lon": 2.5979,
+      "areaHa": 1387.96,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Réal",
+      "inseeCode": "66159",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "real",
+      "population": 81,
+      "lat": 42.64,
+      "lon": 2.1488,
+      "areaHa": 1058.07,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Reynès",
+      "inseeCode": "66160",
+      "postalCodes": [
+        "66400"
+      ],
+      "slug": "reynes",
+      "population": 1220,
+      "lat": 42.466,
+      "lon": 2.6971,
+      "areaHa": 2780.7,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Ria-Sirach",
+      "inseeCode": "66161",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "ria-sirach",
+      "population": 1264,
+      "lat": 42.6101,
+      "lon": 2.3828,
+      "areaHa": 1288.31,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Rigarda",
+      "inseeCode": "66162",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "rigarda",
+      "population": 698,
+      "lat": 42.6292,
+      "lon": 2.5375,
+      "areaHa": 363.01,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Rivesaltes",
+      "inseeCode": "66164",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "rivesaltes",
+      "population": 9270,
+      "lat": 42.7761,
+      "lon": 2.8769,
+      "areaHa": 2885.05,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Rodès",
+      "inseeCode": "66165",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "rodes",
+      "population": 758,
+      "lat": 42.6563,
+      "lon": 2.5485,
+      "areaHa": 1862.19,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Sahorre",
+      "inseeCode": "66166",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "sahorre",
+      "population": 401,
+      "lat": 42.5255,
+      "lon": 2.3565,
+      "areaHa": 1505.31,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Saillagouse",
+      "inseeCode": "66167",
+      "postalCodes": [
+        "66800"
+      ],
+      "slug": "saillagouse",
+      "population": 1155,
+      "lat": 42.4564,
+      "lon": 2.0382,
+      "areaHa": 1125.31,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Saint-André",
+      "inseeCode": "66168",
+      "postalCodes": [
+        "66690"
+      ],
+      "slug": "saint-andre",
+      "population": 3388,
+      "lat": 42.5541,
+      "lon": 2.9794,
+      "areaHa": 974.41,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Saint-Arnac",
+      "inseeCode": "66169",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "saint-arnac",
+      "population": 99,
+      "lat": 42.7737,
+      "lon": 2.5343,
+      "areaHa": 690.21,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Saint-Cyprien",
+      "inseeCode": "66171",
+      "postalCodes": [
+        "66750"
+      ],
+      "slug": "saint-cyprien",
+      "population": 12068,
+      "lat": 42.6205,
+      "lon": 3.0139,
+      "areaHa": 1576.6,
+      "epci": {
+        "code": "246600282",
+        "name": "CC Sud-Roussillon"
+      }
+    },
+    {
+      "name": "Saint-Estève",
+      "inseeCode": "66172",
+      "postalCodes": [
+        "66240"
+      ],
+      "slug": "saint-esteve",
+      "population": 11630,
+      "lat": 42.7154,
+      "lon": 2.8445,
+      "areaHa": 1171.45,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Saint-Féliu-d'Amont",
+      "inseeCode": "66173",
+      "postalCodes": [
+        "66170"
+      ],
+      "slug": "saint-feliu-d-amont",
+      "population": 1292,
+      "lat": 42.6752,
+      "lon": 2.7166,
+      "areaHa": 563.63,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Saint-Féliu-d'Avall",
+      "inseeCode": "66174",
+      "postalCodes": [
+        "66170"
+      ],
+      "slug": "saint-feliu-d-avall",
+      "population": 2950,
+      "lat": 42.6733,
+      "lon": 2.7498,
+      "areaHa": 1054.7,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Saint-Génis-des-Fontaines",
+      "inseeCode": "66175",
+      "postalCodes": [
+        "66740"
+      ],
+      "slug": "saint-genis-des-fontaines",
+      "population": 3059,
+      "lat": 42.5488,
+      "lon": 2.9221,
+      "areaHa": 993.37,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Saint-Hippolyte",
+      "inseeCode": "66176",
+      "postalCodes": [
+        "66510"
+      ],
+      "slug": "saint-hippolyte",
+      "population": 3126,
+      "lat": 42.8104,
+      "lon": 2.9754,
+      "areaHa": 2546.85,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Saint-Jean-Lasseille",
+      "inseeCode": "66177",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "saint-jean-lasseille",
+      "population": 1622,
+      "lat": 42.5863,
+      "lon": 2.8646,
+      "areaHa": 290.18,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Saint-Jean-Pla-de-Corts",
+      "inseeCode": "66178",
+      "postalCodes": [
+        "66490"
+      ],
+      "slug": "saint-jean-pla-de-corts",
+      "population": 2311,
+      "lat": 42.5183,
+      "lon": 2.7938,
+      "areaHa": 1058.83,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Saint-Laurent-de-Cerdans",
+      "inseeCode": "66179",
+      "postalCodes": [
+        "66260"
+      ],
+      "slug": "saint-laurent-de-cerdans",
+      "population": 1045,
+      "lat": 42.3944,
+      "lon": 2.6222,
+      "areaHa": 4465.74,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Saint-Laurent-de-la-Salanque",
+      "inseeCode": "66180",
+      "postalCodes": [
+        "66250"
+      ],
+      "slug": "saint-laurent-de-la-salanque",
+      "population": 9898,
+      "lat": 42.8073,
+      "lon": 2.9993,
+      "areaHa": 1752.25,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Saint-Marsal",
+      "inseeCode": "66183",
+      "postalCodes": [
+        "66110"
+      ],
+      "slug": "saint-marsal",
+      "population": 77,
+      "lat": 42.5256,
+      "lon": 2.6182,
+      "areaHa": 1544.98,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Saint-Martin-de-Fenouillet",
+      "inseeCode": "66184",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "saint-martin-de-fenouillet",
+      "population": 49,
+      "lat": 42.7848,
+      "lon": 2.4777,
+      "areaHa": 934.86,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Saint-Michel-de-Llotes",
+      "inseeCode": "66185",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "saint-michel-de-llotes",
+      "population": 364,
+      "lat": 42.6465,
+      "lon": 2.6268,
+      "areaHa": 887.8,
+      "epci": {
+        "code": "246600415",
+        "name": "CC Roussillon-Conflent"
+      }
+    },
+    {
+      "name": "Saint-Nazaire",
+      "inseeCode": "66186",
+      "postalCodes": [
+        "66570"
+      ],
+      "slug": "saint-nazaire",
+      "population": 2779,
+      "lat": 42.6619,
+      "lon": 2.9895,
+      "areaHa": 1038.31,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Saint-Paul-de-Fenouillet",
+      "inseeCode": "66187",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "saint-paul-de-fenouillet",
+      "population": 1742,
+      "lat": 42.8229,
+      "lon": 2.5025,
+      "areaHa": 4439.16,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Saint-Pierre-dels-Forcats",
+      "inseeCode": "66188",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "saint-pierre-dels-forcats",
+      "population": 260,
+      "lat": 42.4778,
+      "lon": 2.114,
+      "areaHa": 1289.27,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Sainte-Colombe-de-la-Commanderie",
+      "inseeCode": "66170",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "sainte-colombe-de-la-commanderie",
+      "population": 183,
+      "lat": 42.6161,
+      "lon": 2.7421,
+      "areaHa": 482.1,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Sainte-Léocadie",
+      "inseeCode": "66181",
+      "postalCodes": [
+        "66800"
+      ],
+      "slug": "sainte-leocadie",
+      "population": 157,
+      "lat": 42.4298,
+      "lon": 2.0057,
+      "areaHa": 883.01,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Sainte-Marie-la-Mer",
+      "inseeCode": "66182",
+      "postalCodes": [
+        "66470"
+      ],
+      "slug": "sainte-marie-la-mer",
+      "population": 4952,
+      "lat": 42.7262,
+      "lon": 3.0168,
+      "areaHa": 1025.87,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Saleilles",
+      "inseeCode": "66189",
+      "postalCodes": [
+        "66280"
+      ],
+      "slug": "saleilles",
+      "population": 5698,
+      "lat": 42.6553,
+      "lon": 2.947,
+      "areaHa": 616.15,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Salses-le-Château",
+      "inseeCode": "66190",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "salses-le-chateau",
+      "population": 3965,
+      "lat": 42.8359,
+      "lon": 2.9134,
+      "areaHa": 8260,
+      "epci": {
+        "code": "200070365",
+        "name": "CC Corbières Salanque Méditerranée"
+      }
+    },
+    {
+      "name": "Sansa",
+      "inseeCode": "66191",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "sansa",
+      "population": 31,
+      "lat": 42.6189,
+      "lon": 2.1788,
+      "areaHa": 2310.45,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Sauto",
+      "inseeCode": "66192",
+      "postalCodes": [
+        "66210"
+      ],
+      "slug": "sauto",
+      "population": 102,
+      "lat": 42.5166,
+      "lon": 2.1461,
+      "areaHa": 843.78,
+      "epci": {
+        "code": "246600464",
+        "name": "CC Pyrénées Catalanes"
+      }
+    },
+    {
+      "name": "Serdinya",
+      "inseeCode": "66193",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "serdinya",
+      "population": 236,
+      "lat": 42.5736,
+      "lon": 2.324,
+      "areaHa": 1746.74,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Serralongue",
+      "inseeCode": "66194",
+      "postalCodes": [
+        "66230"
+      ],
+      "slug": "serralongue",
+      "population": 244,
+      "lat": 42.3846,
+      "lon": 2.5559,
+      "areaHa": 2300.98,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Sorède",
+      "inseeCode": "66196",
+      "postalCodes": [
+        "66690"
+      ],
+      "slug": "sorede",
+      "population": 3512,
+      "lat": 42.5083,
+      "lon": 2.988,
+      "areaHa": 3457.74,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Souanyas",
+      "inseeCode": "66197",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "souanyas",
+      "population": 29,
+      "lat": 42.5493,
+      "lon": 2.2826,
+      "areaHa": 485.82,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Sournia",
+      "inseeCode": "66198",
+      "postalCodes": [
+        "66730"
+      ],
+      "slug": "sournia",
+      "population": 478,
+      "lat": 42.7138,
+      "lon": 2.4171,
+      "areaHa": 3000.85,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Taillet",
+      "inseeCode": "66199",
+      "postalCodes": [
+        "66400"
+      ],
+      "slug": "taillet",
+      "population": 105,
+      "lat": 42.5191,
+      "lon": 2.6808,
+      "areaHa": 1010.92,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    },
+    {
+      "name": "Tarerach",
+      "inseeCode": "66201",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "tarerach",
+      "population": 42,
+      "lat": 42.6816,
+      "lon": 2.5081,
+      "areaHa": 823.7,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Targasonne",
+      "inseeCode": "66202",
+      "postalCodes": [
+        "66120"
+      ],
+      "slug": "targasonne",
+      "population": 201,
+      "lat": 42.5014,
+      "lon": 1.9877,
+      "areaHa": 789.36,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Taulis",
+      "inseeCode": "66203",
+      "postalCodes": [
+        "66110"
+      ],
+      "slug": "taulis",
+      "population": 58,
+      "lat": 42.5149,
+      "lon": 2.6145,
+      "areaHa": 628.04,
+      "epci": {
+        "code": "246600548",
+        "name": "CC du Haut Vallespir"
+      }
+    },
+    {
+      "name": "Taurinya",
+      "inseeCode": "66204",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "taurinya",
+      "population": 328,
+      "lat": 42.555,
+      "lon": 2.4408,
+      "areaHa": 1364.94,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Tautavel",
+      "inseeCode": "66205",
+      "postalCodes": [
+        "66720"
+      ],
+      "slug": "tautavel",
+      "population": 945,
+      "lat": 42.8163,
+      "lon": 2.7161,
+      "areaHa": 5342.15,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Terrats",
+      "inseeCode": "66207",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "terrats",
+      "population": 806,
+      "lat": 42.6046,
+      "lon": 2.7584,
+      "areaHa": 735.38,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Théza",
+      "inseeCode": "66208",
+      "postalCodes": [
+        "66200"
+      ],
+      "slug": "theza",
+      "population": 2126,
+      "lat": 42.6403,
+      "lon": 2.947,
+      "areaHa": 485.64,
+      "epci": {
+        "code": "246600282",
+        "name": "CC Sud-Roussillon"
+      }
+    },
+    {
+      "name": "Thuès-Entre-Valls",
+      "inseeCode": "66209",
+      "postalCodes": [
+        "66360"
+      ],
+      "slug": "thues-entre-valls",
+      "population": 25,
+      "lat": 42.5006,
+      "lon": 2.2317,
+      "areaHa": 2044.38,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Thuir",
+      "inseeCode": "66210",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "thuir",
+      "population": 8243,
+      "lat": 42.6384,
+      "lon": 2.7618,
+      "areaHa": 1998.87,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Tordères",
+      "inseeCode": "66211",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "torderes",
+      "population": 187,
+      "lat": 42.5653,
+      "lon": 2.7619,
+      "areaHa": 1002.78,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Torreilles",
+      "inseeCode": "66212",
+      "postalCodes": [
+        "66440"
+      ],
+      "slug": "torreilles",
+      "population": 3753,
+      "lat": 42.7571,
+      "lon": 3.0059,
+      "areaHa": 1746.2,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Toulouges",
+      "inseeCode": "66213",
+      "postalCodes": [
+        "66350"
+      ],
+      "slug": "toulouges",
+      "population": 7450,
+      "lat": 42.6723,
+      "lon": 2.8234,
+      "areaHa": 801.3,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Tresserre",
+      "inseeCode": "66214",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "tresserre",
+      "population": 1166,
+      "lat": 42.5559,
+      "lon": 2.842,
+      "areaHa": 1112.2,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Trévillach",
+      "inseeCode": "66215",
+      "postalCodes": [
+        "66130"
+      ],
+      "slug": "trevillach",
+      "population": 201,
+      "lat": 42.7091,
+      "lon": 2.5105,
+      "areaHa": 1744.04,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Trilla",
+      "inseeCode": "66216",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "trilla",
+      "population": 77,
+      "lat": 42.7369,
+      "lon": 2.5229,
+      "areaHa": 914.2,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Trouillas",
+      "inseeCode": "66217",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "trouillas",
+      "population": 2324,
+      "lat": 42.6055,
+      "lon": 2.8235,
+      "areaHa": 1716.62,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Ur",
+      "inseeCode": "66218",
+      "postalCodes": [
+        "66760"
+      ],
+      "slug": "ur",
+      "population": 382,
+      "lat": 42.4594,
+      "lon": 1.9382,
+      "areaHa": 674.15,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Urbanya",
+      "inseeCode": "66219",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "urbanya",
+      "population": 45,
+      "lat": 42.6429,
+      "lon": 2.2964,
+      "areaHa": 1388.6,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Valcebollère",
+      "inseeCode": "66220",
+      "postalCodes": [
+        "66340"
+      ],
+      "slug": "valcebollere",
+      "population": 34,
+      "lat": 42.382,
+      "lon": 2.0472,
+      "areaHa": 2609.19,
+      "epci": {
+        "code": "246600399",
+        "name": "CC Pyrénées Cerdagne"
+      }
+    },
+    {
+      "name": "Valmanya",
+      "inseeCode": "66221",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "valmanya",
+      "population": 34,
+      "lat": 42.5251,
+      "lon": 2.5089,
+      "areaHa": 2784.35,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Vernet-les-Bains",
+      "inseeCode": "66222",
+      "postalCodes": [
+        "66820"
+      ],
+      "slug": "vernet-les-bains",
+      "population": 1498,
+      "lat": 42.5363,
+      "lon": 2.4152,
+      "areaHa": 1651.94,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Villefranche-de-Conflent",
+      "inseeCode": "66223",
+      "postalCodes": [
+        "66500"
+      ],
+      "slug": "villefranche-de-conflent",
+      "population": 215,
+      "lat": 42.5955,
+      "lon": 2.3575,
+      "areaHa": 458.75,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Villelongue-de-la-Salanque",
+      "inseeCode": "66224",
+      "postalCodes": [
+        "66410"
+      ],
+      "slug": "villelongue-de-la-salanque",
+      "population": 3335,
+      "lat": 42.7261,
+      "lon": 2.977,
+      "areaHa": 722.19,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Villelongue-dels-Monts",
+      "inseeCode": "66225",
+      "postalCodes": [
+        "66740"
+      ],
+      "slug": "villelongue-dels-monts",
+      "population": 1976,
+      "lat": 42.5238,
+      "lon": 2.8979,
+      "areaHa": 1175.48,
+      "epci": {
+        "code": "200043602",
+        "name": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
+      }
+    },
+    {
+      "name": "Villemolaque",
+      "inseeCode": "66226",
+      "postalCodes": [
+        "66300"
+      ],
+      "slug": "villemolaque",
+      "population": 1278,
+      "lat": 42.5976,
+      "lon": 2.848,
+      "areaHa": 595.98,
+      "epci": {
+        "code": "246600449",
+        "name": "CC des Aspres"
+      }
+    },
+    {
+      "name": "Villeneuve-de-la-Raho",
+      "inseeCode": "66227",
+      "postalCodes": [
+        "66180"
+      ],
+      "slug": "villeneuve-de-la-raho",
+      "population": 4470,
+      "lat": 42.6402,
+      "lon": 2.909,
+      "areaHa": 1156.85,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Villeneuve-la-Rivière",
+      "inseeCode": "66228",
+      "postalCodes": [
+        "66610"
+      ],
+      "slug": "villeneuve-la-riviere",
+      "population": 1360,
+      "lat": 42.7046,
+      "lon": 2.7964,
+      "areaHa": 443.49,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Vinça",
+      "inseeCode": "66230",
+      "postalCodes": [
+        "66320"
+      ],
+      "slug": "vinca",
+      "population": 2260,
+      "lat": 42.6431,
+      "lon": 2.5225,
+      "areaHa": 782.05,
+      "epci": {
+        "code": "200049211",
+        "name": "CC Conflent-Canigó"
+      }
+    },
+    {
+      "name": "Vingrau",
+      "inseeCode": "66231",
+      "postalCodes": [
+        "66600"
+      ],
+      "slug": "vingrau",
+      "population": 536,
+      "lat": 42.8588,
+      "lon": 2.7904,
+      "areaHa": 3257.01,
+      "epci": {
+        "code": "200027183",
+        "name": "CU Perpignan Méditerranée Métropole"
+      }
+    },
+    {
+      "name": "Vira",
+      "inseeCode": "66232",
+      "postalCodes": [
+        "66220"
+      ],
+      "slug": "vira",
+      "population": 29,
+      "lat": 42.7653,
+      "lon": 2.3899,
+      "areaHa": 1299.38,
+      "epci": {
+        "code": "246600423",
+        "name": "CC Agly Fenouillèdes"
+      }
+    },
+    {
+      "name": "Vivès",
+      "inseeCode": "66233",
+      "postalCodes": [
+        "66490"
+      ],
+      "slug": "vives",
+      "population": 190,
+      "lat": 42.5303,
+      "lon": 2.766,
+      "areaHa": 1118.72,
+      "epci": {
+        "code": "246600373",
+        "name": "CC du Vallespir"
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+.form {
+  display: grid;
+  gap: 1.6rem;
+}
+
+.summary:empty {
+  display: none;
+}
+
+.summary {
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--danger);
+  border-radius: var(--radius-s);
+  background: #fbeeec;
+  color: var(--danger);
+  font-size: 0.95rem;
+}
+
+.summary:focus {
+  outline: 2px solid var(--danger);
+  outline-offset: 2px;
+}
+
+.summaryTitle {
+  font-weight: 700;
+}
+
+.summary ul {
+  margin-top: 0.4rem;
+  padding-left: 1.2rem;
+}
+
+.summary a {
+  color: inherit;
+}
+
+.fieldset {
+  border: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 0;
+}
+
+.req {
+  color: var(--champagne-ink);
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.input {
+  width: 100%;
+  min-height: 52px;
+  padding: 0.8rem 1rem;
+  border: 1px solid #cfc8b8;
+  border-radius: var(--radius-s);
+  background: var(--paper);
+  font-size: 1rem;
+  transition:
+    border-color 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+
+.input:hover {
+  border-color: #a99f8a;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--petrol);
+  box-shadow: 0 0 0 3px rgba(15, 71, 82, 0.18);
+}
+
+.textarea {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.invalid .input,
+.input[aria-invalid="true"] {
+  border-color: var(--danger);
+}
+
+.error {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--danger);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.chip {
+  position: relative;
+  cursor: pointer;
+}
+
+.chip input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.chip span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.55rem 1rem;
+  border: 1px solid #cfc8b8;
+  border-radius: 999px;
+  background: var(--paper);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition:
+    background-color 0.2s var(--ease),
+    border-color 0.2s var(--ease),
+    color 0.2s var(--ease);
+}
+
+.chip:hover span {
+  border-color: var(--petrol);
+}
+
+.chip input:checked + span {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--text-on-dark);
+}
+
+.chip input:focus-visible + span {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.chipsInvalid .chip span {
+  border-color: var(--danger);
+}
+
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.legal {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+
+.legal a {
+  color: var(--petrol);
+}
+
+.submitRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.5rem;
+}
+
+.or {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.or a {
+  color: var(--ink);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.spinner {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.success {
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+  padding: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+  border-radius: var(--radius);
+  background: var(--aqua-soft);
+}
+
+.successIcon {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--success);
+  color: #fff;
+}
+
+.successIcon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.successTitle {
+  font-size: var(--step-3);
+  color: var(--ink);
+}
+
+.successTitle:focus {
+  outline: none;
+}
+
+.successNote {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.successNote a {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

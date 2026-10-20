@@ -1,0 +1,78 @@
+.section {
+  background: linear-gradient(180deg, var(--ivory) 0%, var(--ivory-2) 100%);
+}
+
+.grid {
+  display: grid;
+  gap: clamp(2.5rem, 2rem + 3vw, 5rem);
+  align-items: start;
+}
+
+.aside {
+  display: grid;
+  gap: 1.3rem;
+}
+
+.points {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.points li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: 600;
+}
+
+.points svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  flex: none;
+  color: var(--champagne-ink);
+}
+
+.direct {
+  display: grid;
+  gap: 0.3rem;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--text-muted);
+}
+
+.phone {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.phone:hover {
+  color: var(--petrol);
+}
+
+.mail {
+  color: var(--petrol);
+  font-weight: 600;
+}
+
+.card {
+  padding: clamp(1.4rem, 1rem + 2vw, 2.8rem);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  box-shadow: var(--shadow-soft);
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+
+  .aside {
+    position: sticky;
+    top: calc(var(--header-h) + 2rem);
+  }
+}

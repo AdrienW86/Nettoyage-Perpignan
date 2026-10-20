@@ -1,0 +1,159 @@
+.footer {
+  background: var(--ink);
+  color: var(--text-on-dark-muted);
+  padding-top: clamp(4rem, 3rem + 4vw, 6.5rem);
+  font-size: 0.95rem;
+}
+
+.top {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+  padding-bottom: 3.5rem;
+}
+
+.brandCol {
+  display: grid;
+  gap: 1.4rem;
+  align-content: start;
+  max-width: 380px;
+}
+
+.tagline {
+  line-height: 1.7;
+}
+
+.contact {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.contact a,
+.contact span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--text-on-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  color: var(--champagne);
+}
+
+.contact svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  color: var(--champagne);
+}
+
+.col ul {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.col a {
+  text-decoration: none;
+  transition: color 0.2s var(--ease);
+}
+
+.col a:hover {
+  color: var(--text-on-dark);
+  text-decoration: underline;
+}
+
+.colTitle {
+  margin-bottom: 1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--champagne);
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-block: 2rem;
+  border-top: 1px solid var(--line-dark);
+  text-align: center;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--text-on-dark);
+}
+
+.group p {
+  flex: none;
+  max-width: 100%;
+}
+
+.group a {
+  color: var(--champagne);
+  text-decoration-color: rgba(212, 180, 131, 0.5);
+}
+
+.group a:hover {
+  text-decoration-color: currentColor;
+}
+
+.groupRule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 180, 131, 0.45), transparent);
+}
+
+.bottom {
+  display: grid;
+  gap: 0.9rem;
+  padding-block: 2rem 2.5rem;
+  border-top: 1px solid var(--line-dark);
+  font-size: 0.85rem;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+}
+
+.legal a,
+.note a {
+  color: var(--text-on-dark);
+}
+
+.note {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+@media (max-width: 639px) {
+  .group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .groupRule {
+    width: 60%;
+    flex: none;
+  }
+
+  /* Place pour la barre d'appel mobile. */
+  .footer {
+    padding-bottom: 72px;
+  }
+}
+
+@media (min-width: 760px) {
+  .top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .top {
+    grid-template-columns: 1.6fr 1fr 1.2fr 1fr;
+  }
+}

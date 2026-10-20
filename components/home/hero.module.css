@@ -1,0 +1,225 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  min-height: min(calc(100svh - var(--header-h)), 900px);
+  padding-block: clamp(3rem, 2rem + 5vw, 6rem);
+  background:
+    radial-gradient(60% 70% at 85% 30%, rgba(21, 90, 102, 0.55) 0%, transparent 70%),
+    radial-gradient(50% 60% at 0% 100%, rgba(167, 212, 200, 0.1) 0%, transparent 70%),
+    linear-gradient(180deg, var(--ink) 0%, var(--navy) 100%);
+}
+
+/* Fine trame décorative */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(243, 239, 230, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(243, 239, 230, 0.035) 1px, transparent 1px);
+  background-size: 88px 88px;
+  mask-image: radial-gradient(70% 70% at 50% 40%, #000 30%, transparent 80%);
+  pointer-events: none;
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.text {
+  display: grid;
+  gap: 1.6rem;
+}
+
+.kicker {
+  animation: rise 0.9s var(--ease) both;
+}
+
+.title {
+  font-size: clamp(2.6rem, 1.6rem + 4.6vw, 5.6rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  max-width: 14ch;
+}
+
+.accent {
+  display: block;
+  font-style: italic;
+  color: var(--champagne);
+}
+
+.lead {
+  font-size: var(--step-1);
+  line-height: 1.6;
+  color: var(--text-on-dark-muted);
+  max-width: 52ch;
+  animation: rise 0.9s 0.1s var(--ease) both;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  animation: rise 0.9s 0.18s var(--ease) both;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.6rem;
+  margin-top: 0.6rem;
+  font-size: 0.88rem;
+  color: var(--text-on-dark-muted);
+  animation: rise 0.9s 0.26s var(--ease) both;
+}
+
+.badges li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badges svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  color: var(--champagne);
+}
+
+.figure {
+  display: none;
+  position: relative;
+  justify-self: end;
+  width: min(100%, 470px);
+}
+
+.arch {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border-radius: 999px 999px var(--radius) var(--radius);
+  overflow: hidden;
+  box-shadow: 0 50px 100px -50px rgba(0, 0, 0, 0.8);
+  animation: unveil 1.4s 0.1s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+.figure::before {
+  content: "";
+  position: absolute;
+  inset: -18px -18px 18px 18px;
+  border: 1px solid rgba(212, 180, 131, 0.5);
+  border-radius: 999px 999px var(--radius) var(--radius);
+  pointer-events: none;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 30% 50%;
+  transform: scale(1.06);
+  animation: settle 2.2s var(--ease) both;
+}
+
+.caption {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.9rem;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+  position: absolute;
+  left: -3.5rem;
+  bottom: 3.5rem;
+  display: grid;
+  gap: 0.25rem;
+  max-width: 240px;
+  padding: 1.1rem 1.3rem;
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--text);
+  box-shadow: var(--shadow-lift);
+  animation: rise 1s 0.6s var(--ease) both;
+}
+
+.cardKicker {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--petrol);
+}
+
+.cardText {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+.scrollHint {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  display: none;
+  width: 1px;
+  height: 52px;
+  background: rgba(243, 239, 230, 0.15);
+  overflow: hidden;
+}
+
+.scrollHint span {
+  position: absolute;
+  inset: 0;
+  background: var(--champagne);
+  animation: drip 2.4s var(--ease) infinite;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(18px);
+    opacity: 0;
+  }
+}
+
+@keyframes unveil {
+  from {
+    clip-path: inset(100% 0 0 0 round 999px 999px 14px 14px);
+  }
+  to {
+    clip-path: inset(0 0 0 0 round 999px 999px 14px 14px);
+  }
+}
+
+@keyframes settle {
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes drip {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 4rem;
+  }
+
+  .figure {
+    display: block;
+  }
+
+  .scrollHint {
+    display: block;
+  }
+}

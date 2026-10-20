@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# exemple de configuration (versionné)
+!.env.example
+
+# playwright
+/test-results/
+/playwright-report/
+
+# généré automatiquement par next dev
+/AGENTS.md

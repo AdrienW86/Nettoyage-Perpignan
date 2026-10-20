@@ -1,0 +1,69 @@
+.steps {
+  display: grid;
+  gap: 2rem;
+  counter-reset: step;
+}
+
+.step {
+  position: relative;
+  display: grid;
+  gap: 0.6rem;
+  align-content: start;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line);
+}
+
+:global(.on-dark) .step,
+:global(.on-petrol) .step {
+  border-top-color: var(--line-dark);
+}
+
+.step::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 3rem;
+  height: 1px;
+  background: var(--champagne);
+}
+
+.num {
+  font-family: var(--font-display);
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1;
+  color: var(--champagne-ink);
+}
+
+:global(.on-dark) .num,
+:global(.on-petrol) .num {
+  color: var(--champagne);
+}
+
+.title {
+  font-size: var(--step-1);
+  line-height: 1.25;
+}
+
+.text {
+  color: var(--text-muted);
+  font-size: 0.96rem;
+}
+
+:global(.on-dark) .text,
+:global(.on-petrol) .text {
+  color: var(--text-on-dark-muted);
+}
+
+@media (min-width: 700px) {
+  .steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .steps {
+    grid-template-columns: repeat(var(--count), 1fr);
+  }
+}

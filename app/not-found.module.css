@@ -1,0 +1,38 @@
+.wrap {
+  min-height: 70vh;
+  display: grid;
+  align-items: center;
+  padding-block: 5rem;
+  background: linear-gradient(180deg, var(--ink), var(--navy));
+}
+
+.inner {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.title {
+  font-size: var(--step-5);
+  max-width: 16ch;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.links a {
+  display: inline-flex;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid var(--line-dark);
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.links a:hover {
+  border-color: var(--champagne);
+  color: var(--champagne);
+}
